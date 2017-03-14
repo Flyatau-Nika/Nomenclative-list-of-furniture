@@ -24,5 +24,10 @@ namespace Nomenclative_list_of_furniture
         {
             InitializeComponent();
         }
+
+        private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
