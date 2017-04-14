@@ -40,5 +40,11 @@ namespace Nomenclative_list_of_furniture
             set { Colour = value; }
         }
 
-    }
+        public string Info
+        {
+            get {
+                return $"{Name} - {Size} - {Set} - {Colour}";
+            }
+        }
+}
 }
