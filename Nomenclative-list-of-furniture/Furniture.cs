@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nomenclative_list_of_furniture
 {
-    class Set1
+    class Furniture
     {
         private string Name;
 
@@ -46,5 +46,17 @@ namespace Nomenclative_list_of_furniture
                 return $"{Name} - {Size} - {Set} - {Colour}";
             }
         }
-}
+
+      //  public Elements(double Name, int Size, double Set, double Colour) 
+      //  {
+           // this.Name = Name;
+           // this.Size = Size;
+         //   this.Set = Set;
+          //  this.Colour = Colour;
+      //  }
+        /// <summary>
+        /// Переопределенный метод вывода строки массива
+        /// </summary>
+     
+    }
 }
